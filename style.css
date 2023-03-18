@@ -17,6 +17,7 @@ a{
 }
 p{
     font-size: 18px;
+    line-height: 26px;
     margin: 15px 0 15px 0;
     color: var(--text-dark);
 }
@@ -47,6 +48,7 @@ header{
 }
 .header-on-scroll{
     background-color: rgba(255, 255, 255, 1);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
 }
 .header-bg-change{
     background-color: #ffffff;
@@ -217,10 +219,14 @@ main{
 
 
 .footer > div{
-    padding: 25px;
-    background-color: var(--light-blue);
-    color: var(--text-dark);
+    padding: 25px 0 25px 0;
+    background-color: var(--text-dark);
+    
     text-align: center;
+    
+}
+.footer>div>p{
+    color: var(--light-blue);
 }
 
 @media screen and (min-width:910px) {
