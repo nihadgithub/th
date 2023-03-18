@@ -13,18 +13,22 @@ body{
 }
 a{
     font-size: 18px;
+    color: var(--text-dark);
 }
 p{
     font-size: 18px;
     margin: 15px 0 15px 0;
-    color: #1f2b37;
+    color: var(--text-dark);
 }
 
 :root{
     --transparent :rgba(0,0,0,0);
     --white:#fff;
     --black:#121212;
-    --gray:#555;
+
+    --light-green:#adedc2;
+    --light-blue:#c4f4f9;
+    --text-dark:#1f2b37;
 }
 .wrapper{
     min-height: 100%;
@@ -34,7 +38,6 @@ header{
     height: 70px;
     width: 100%;
     padding: 0 25px 0 25px;
-    /* background-color: var(--white); */
     position: fixed;
 
     background-color: rgba(255, 255, 255, 0);
@@ -88,9 +91,7 @@ nav ul li a{
     padding: 15px;
     margin: 30px;
     color: var(--black);
-   font-size: 28px;
-   /*  transition: cubic-bezier(0.165, 0.84, 0.44, 1); */
-    
+    font-size: 28px;  
 }
 .menu-btn{ 
     position: absolute;
@@ -98,7 +99,6 @@ nav ul li a{
     right: 15px;
     height: 100%;
     width: 60px;
-    /* background-color: var(--gray); */
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -173,9 +173,9 @@ main{
     font-weight: 600;
     margin: 5px 0 5px 0;
     
-    color: #63bff4;
+    /* color: #63bff4;
     color: #e949bd;
-    color: #4f76f6;
+    color: #4f76f6; */
     color: #1f2b37;
     /* color: #8553f4; */
 
@@ -214,6 +214,14 @@ main{
     */
 } 
 
+
+
+.footer > div{
+    padding: 25px;
+    background-color: var(--light-blue);
+    color: var(--text-dark);
+    text-align: center;
+}
 
 @media screen and (min-width:910px) {
     body{
