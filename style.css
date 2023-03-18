@@ -21,6 +21,7 @@ p{
 }
 
 :root{
+    --transparent :rgba(0,0,0,0);
     --white:#fff;
     --black:#121212;
     --gray:#555;
@@ -37,6 +38,8 @@ header{
     position: fixed;
 
     background-color: rgba(255, 255, 255, 0);
+
+    transition: 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
     
 }
 .header-on-scroll{
@@ -126,7 +129,7 @@ nav ul li a{
     left: 0;
     width: 100%;
     height: 100vh;
-    height: calc(100vh - 70px);
+   /*  height: calc(100vh - 70px); */
     z-index: -1;
     background-color: #adedc2;
 }
@@ -138,14 +141,15 @@ main{
 }
 .page__section{
     padding: 25px;
+
     max-width: 1200px;
     margin: 0 auto;
 }
 .page__section_1{
     
     /* margin-top: 70px;  */
-    min-height: calc(100vh - 70px);
-
+   /*  min-height: calc(100vh - 70px); */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -183,9 +187,12 @@ main{
     margin: 5px 0 5px 0;
     color: #1f2b37;
 }
+.page__text{
+    margin: 0 0 15px 0;
+}
 
 .socials__landing__page{
-	margin: 25px 0 25px 0;
+	margin: 15px 0 15px 0;
 }
 
 .socials__landing__page a{
@@ -194,7 +201,7 @@ main{
 	display:inline-block;
 	/* background-color: var(--black); */
 	padding: 10px;
-	border: 2px solid black;
+	border: 2px solid rgba(0, 0, 0, 0.258);
 	border-radius: 10px;
 }
 .socials__landing__page a img{
@@ -238,6 +245,7 @@ main{
     }
     nav ul li a{
         display: inline;
+        background-color: var(--transparent);
         color: var(--black);
         font-size: 18px;
     }
@@ -261,7 +269,7 @@ main{
     }
     nav{
         transition: none;
-        background-color: var(--white);
+        background-color: var(--transparent);
         font-size: 18px;
     }
 
