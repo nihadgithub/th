@@ -181,7 +181,7 @@ main{
 .page__title_oulined_head{
     font-size: 56px;
     color: var(--transparent);
-    
+    color: var(--light-green);
     -webkit-text-stroke: 2px var(--text-dark);
 }
 .page__title_oulined_head > span{
