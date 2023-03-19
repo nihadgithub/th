@@ -164,8 +164,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding-bottom: 5%;
-
+    padding-bottom: max(5%,30px);
+    
     overflow: hidden;
     
 }
@@ -378,6 +378,9 @@ main{
         background-color: var(--transparent);
         color: var(--black);
         font-size: 18px;
+    }
+    .page__title_oulined_head{
+        margin-bottom: 15px;
     }
     .page__title_main{
         font-size: 48px;
