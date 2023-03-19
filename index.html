@@ -4,18 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    <!-- AOS - Animate On Scroll CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+
     <title>TinkerHub IETCU</title>
+
+    <!-- Hey there stalker!  -->
+
 </head>
 <body>
     <!-- header -->
    <div class="wrapper">
         <header>
-            <div class="header-logo">
+            <div class="header-logo" data-aos="fade-down" data-aos-duration="1000">
                 <img src="images/logo-black.png" alt="">
             </div>
-           <nav>
+           <nav data-aos="fade-down" data-aos-duration="1000">
               <ul>
                     <li>
                         <a data-goto=".page__section_1"  class="menu__link" href="">Home</a>
@@ -31,12 +41,13 @@
                     </li>
                 </ul>
             </nav>
-            <div class="menu-btn">
+            <div data-aos="fade-down" data-aos-duration="1000" class="menu-btn">
                 <div class="menu-btn-bar menu-btn-bar-1"></div>
                 <div class="menu-btn-bar menu-btn-bar-2"></div>
             </div>
     </header>
     
+    <!-- Pages -->
     <main class="page">
         <section class="page__section page__section_1">
             
@@ -71,40 +82,43 @@
                 <path fill="#c4f4f9" class="out-bottom" d="M105.9,48.6c-12.4-8.2-29.3-4.8-39.4.8-23.4,12.8-37.7,51.9-19.1,74.1s63.9,15.3,76-5.6c7.6-13.3,1.8-31.1-2.3-43.8C117.6,63.3,114.7,54.3,105.9,48.6Z"/>
                 <path fill="#adedc2" class="in-bottom" d="M102,67.1c-9.6-6.1-22-3.1-29.5,2-15.4,10.7-19.6,37.5-7.6,47.8s35.9,3.9,44.5-12.5C115.5,92.6,113.9,74.6,102,67.1Z"/>
             </svg>
-            
-            <h1 class="page__title_oulined_head">
-                <span> <img src="images/ic/book-open.svg" alt=""> Learn,</span>
-                <span> <img src="images/ic/share-2.svg" alt=""> Connect,</span>
-                <span> <img src="images/ic/trending-up.svg" alt=""> Grow.</span>
-            </h1>
 
-            <h1 class="page__title_main">
-                TinkerHub IETCU
-            </h1>
-            <h2 class="page__title__sub">
-                Official TinkerHub chapter of
-                Institute of Engineering and Technology,<br>
-                University of Calicut
-            </h2>
-            <div class="socials__landing__page">
-                <a href="https://instagram.com/tinkerhubietcu?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
-                    <img src="images/ic/instagram.svg" alt="instagram logo">
-                </a>
-                <a href="mailto:tinkerhubietcu@gmail.com">
-                    <img src="images/ic/mail.svg" alt="mail">
-                </a>
-                <a href="">
-                    <img src="images/ic/map-pin.svg" alt="mail">
-                </a>
+            <div data-aos="fade-up" data-aos-duration="2000">
+                <h1 class="page__title_oulined_head">
+                    <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"> <img src="images/ic/book-open.svg" alt=""> Learn,</span>
+                    <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"> <img src="images/ic/share-2.svg" alt=""> Connect,</span>
+                    <span data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500"> <img src="images/ic/trending-up.svg" alt=""> Grow.</span>
+                </h1>
 
-            </div>
-            <div class="page__text">
-                <p class="body__text">
+               <h1  class="page__title_main">
+                    TinkerHub IETCU
+                </h1>
+                <h2 class="page__title__sub">
+                    Official TinkerHub chapter of
+                 Institute of Engineering and Technology,<br>
+                    University of Calicut
+                 </h2>
+                 <div  class="socials__landing__page">
+                    <a href="https://instagram.com/tinkerhubietcu?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer">
+                        <img src="images/ic/instagram.svg" alt="instagram logo">    
+                    </a>
+                        <a href="mailto:tinkerhubietcu@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img src="images/ic/mail.svg" alt="mail">
+                     </a>
+                    <a href="https://maps.app.goo.gl/yVAv6984wmTyMej79" target="_blank" rel="noopener noreferrer">
+                        <img src="images/ic/map-pin.svg" alt="location">
+                    </a>
+
+                </div>
+
+                <!-- <div class="page__text">
+                    <p class="body__text">
                 
-                </p>
+                    </p>
+                </div> -->
             </div>
         </section>
-        <section class="page__section page__section_2">
+        <section data-aos="fade-up" data-aos-duration="1000" class="page__section page__section_2">
             <h2 class="page__title">About Us</h2>
             <div>
                 <p class="page__text">
@@ -112,15 +126,15 @@
                 </p>
             </div>
         </section>
-        <section class="page__section page__section_3">
-            <h2 class="page__title">Executive Commitee 2023-24</h2>
+        <section data-aos="fade-up" data-aos-duration="500" class="page__section page__section_3">
+            <h2  class="page__title">Executive Commitee 2023-24</h2>
             <div>
                 <p class="page__text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.te, maxime error? Quidem, quam repellat!
                 </p>
             </div>
         
-            <div class="execom-container">
+            <div data-aos="fade-up" data-aos-duration="500" class="execom-container">
                 <h3 class="execom-container-head">Campus Core Team</h3>
                 <div class="campus-core-team">
                         <div class="lead-info-card">
@@ -196,7 +210,7 @@
             
         </section>
 
-        <div class="footer">
+        <div  class="footer">
             <div>
                 <p>Copyright&copy; TinkerHub IETCU</p>
                 <p>Designed by Nihad</p>
