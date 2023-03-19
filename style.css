@@ -186,10 +186,13 @@ main{
     font-family: 'Open Sans', sans-serif;
 }
 .page__title_oulined_head > span{
-    display: block;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
 }
 .page__title_oulined_head > span > img{
-    
+    margin: 2px;
 }
 
 
