@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,19 +11,11 @@
 }
 body{
     font-family: 'Inter', sans-serif;
-   color: #1f2b37;
+    
 }
-
-
-
 body._lock {
 	overflow: hidden;
 }
-
-
-
-
-
 a{
     font-size: 18px;
     color: var(--text-dark);
@@ -185,17 +179,23 @@ main{
 
 .page__title_oulined_head{
     font-size: 56px;
+    font-weight: 800;
     color: var(--transparent);
-    /* webkit-text-stroke: 1px var(--text-dark-transparancy);
- */
-    color: #79a789;
+    -webkit-text-stroke: 2px var(--black);
+    
+    font-family: 'Open Sans', sans-serif;
 }
 .page__title_oulined_head > span{
     display: block;
 }
+.page__title_oulined_head > span > img{
+    
+}
+
+
 .page__title_main{
     font-size: 36px;
-    font-weight: 800;
+    font-weight: 700;
     margin: 15px 0 15px 0;
     color: var(--text-dark);
 }
