@@ -353,23 +353,26 @@ main{
     background-color: #121212;
 }
 
-.footer > div{
+.footer div{
 
-    padding: 15px 0 15px 0;
+   padding: 15px;
     
     
     text-align: center;
     
 }
-.footer>div>p{
+.footer div p{
     color: var(--white);
-    margin: 15px 0 15px 0;
+    color: #777;
+    padding: 10px;
 }
 .footer .designed-by{
-    
+   
 }
 .footer .designed-by p{
     background-color: #000;
+    color: #fff;
+    font-size: 16px;
     border-radius: 1em;
     display: inline-block;
     padding: 15px 25px;
