@@ -175,6 +175,8 @@ nav > ul > li > a:hover{
     max-width: 1200px;
     margin: 0 auto;
     scroll-padding-top: 70px;
+
+    user-select: none;
 }
 .page__section_1{
     
