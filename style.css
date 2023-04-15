@@ -114,10 +114,11 @@ nav ul li a{
 
     transition: 600ms ease-in-out;
 
-    
+    border: 1px solid var(--transparent);
 }
 nav > ul > li > a:hover{
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--black);
 }
 .menu-btn{ 
     position: absolute;
@@ -160,7 +161,7 @@ nav > ul > li > a:hover{
 
     /* height: calc(var(--vh,1vh)*100); */
     height: 100vh;
-    height: 100dvh;
+    /* height: 100dvh; */
 
     width: 100%;
     z-index: -1;
@@ -246,7 +247,7 @@ nav > ul > li > a:hover{
     font-size: 24px;
     line-height: 32px;
     font-weight: 600;
-    margin: 10px 0 10px 0;
+    margin: 15px 0 10px 0;
     color: var(--text-dark);
 }
 .page__text{
@@ -367,27 +368,33 @@ nav > ul > li > a:hover{
     
 }
 .lead-info-card{
-    padding: 25px 40px;
+    padding: 30px 40px;
     margin: 20px 10px;
     /* background-color: var(--light-blue); */
     display: grid;
     place-items: center;
-    border-radius: 15px;
-    /* border-bottom: 6px solid var(--light-green); */
     background-color: var(--white);
+    border-radius: 25px 25px 0 0;
+    border: 1px solid var(--black);
+    border-bottom: 5px solid var(--black);
+    transition: 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
 
     
 }
+.lead-info-card:hover{
+    transform: scaleY(1.02);
+}
 .lead-info-card > h3{
     color: var(--text-dark);
-    font-weight:700;
+    font-weight:600;
+    font-size: 20px;
     padding: 2.5px;
 }
 .lead-info-card > p{
     padding: 5px 2.5px;
     color: var(--text-dark);
     color: var(--text-second);
-    font-size: 16px;
+    font-size: 15px;
 }
 .lead-photo{
     height: 175px;
