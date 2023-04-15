@@ -12,6 +12,7 @@
 body{
     font-family: 'Inter', sans-serif;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0.0);
+    user-select: none;
 }
 body._lock {
 	overflow: hidden;
@@ -432,7 +433,8 @@ nav > ul > li > a:hover{
 .footer div p{
     color: var(--white);
     color: #777;
-    padding: 10px;
+    padding: 20px;
+    font-size: 12px;
 }
 /* .footer .designed-by{
    
