@@ -18,7 +18,10 @@ body._lock {
 }
 a{
     font-size: 18px;
+
     color: var(--text-dark);
+
+    color: rgb(68, 60, 221);
 }
 p{
     font-size: 18px;
@@ -94,9 +97,9 @@ nav{
     left: 0;
     visibility: visible;
 }
-nav ul{
+/* nav ul{
     
-}
+} */
 nav ul li a{
     display: block;
     padding: 15px 25px;
@@ -161,12 +164,12 @@ nav > ul > li > a:hover{
     z-index: -1;
     background-color: #adedc2;
 }
-main{
+/* main{
 
 }
 .page{
     
-}
+} */
 .page__section{
     padding: 25px;
 
@@ -186,13 +189,10 @@ main{
      */
     overflow: hidden;
 }
-
+/* 
 .page__section_2{
-    /* background-color:#c4f4f9; */
 }
-.page__section_3{
-
-}
+ */
 
 .page__title_oulined_head{
     font-size: 48px;
@@ -221,7 +221,7 @@ main{
 
 
 .page__title_main{
-    font-size: 36px;
+    font-size: 38px;
     font-weight: 600;
     margin: 30px 0 15px 0;
     color: var(--text-dark);
@@ -230,7 +230,7 @@ main{
 .page__title__sub{
     font-size: 24px;
     line-height: 32px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 5px 0 5px 0;
     
     /* color: #63bff4;
@@ -265,10 +265,10 @@ main{
 	border-radius: 10px;
 
 }
-.socials__landing__page a img{
-	/* height: 35px; */
-	/* filter: invert(100%) sepia(34%) saturate(0%) hue-rotate(245deg) brightness(102%) contrast(102%);
- */}
+/* .socials__landing__page a img{
+	 height: 35px; 
+	 filter: invert(100%) sepia(34%) saturate(0%) hue-rotate(245deg) brightness(102%) contrast(102%);
+ } */
 .socials__landing__page a:hover{
 	
     
@@ -276,6 +276,54 @@ main{
    
 } 
 
+.page__section_3 > div > a{
+    padding: 25px;
+    background-color: #000000;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    border-radius: 30px;
+
+    display: flex;
+}
+
+
+
+
+
+
+
+/* 
+.stats-about-page{
+
+    background-image:radial-gradient(at 20% 9%, rgb(254, 242, 235) 0px, transparent 50%),
+	radial-gradient(at 3% 44%, rgb(244, 226, 255) 0px, transparent 50%),
+	radial-gradient(at 79% 29%, rgb(207, 234, 255) 0px, transparent 50%),
+	radial-gradient(at 27% 60%, rgb(254, 220, 217) 0px, transparent 50%),
+	radial-gradient(at 67% 64%, rgb(198, 255, 237) 0px, transparent 50%),
+	radial-gradient(at 66% 36%, rgb(255, 242, 223) 0px, transparent 50%),
+	radial-gradient(at 42% 16%, rgb(228, 228, 255) 0px, transparent 50%);
+
+    padding: 15px;
+    border-radius: 15px;
+    background-color: var(--light-green);
+}
+.stats-about-page > h2{
+    margin: 15px 0;
+    font-weight: 600;
+}
+.stats-container{
+    
+}
+.stats-card{
+    margin: 15px;
+    padding:25px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    display: inline-block;
+}
+ */
 .execom-container{
     padding: 15px 0 35px 0;
     margin: 25px 0 25px 0;
@@ -290,11 +338,11 @@ main{
 	radial-gradient(at 3% 44%, rgb(244, 226, 255) 0px, transparent 50%),
 	radial-gradient(at 79% 29%, rgb(207, 234, 255) 0px, transparent 50%),
 	radial-gradient(at 27% 60%, rgb(254, 220, 217) 0px, transparent 50%),
-	radial-gradient(at 67% 64%, rgb(198, 255, 237) 0px, transparent 50%),
+	radial-gradient(at 67% 64%, rgb(209, 251, 238) 0px, transparent 50%),
 	radial-gradient(at 66% 36%, rgb(255, 242, 223) 0px, transparent 50%),
 	radial-gradient(at 42% 16%, rgb(228, 228, 255) 0px, transparent 50%);
 
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .execom-container .execom-container-head{
     margin: 25px 0 0px 0;
@@ -370,13 +418,13 @@ main{
     color: #777;
     padding: 10px;
 }
-.footer .designed-by{
+/* .footer .designed-by{
    
-}
+} */
 .footer .designed-by p{
-    background-color: #000;
-    color: #fff;
-    font-size: 16px;
+    background-color: #1f1f1f;
+    color: #8f8f8f;
+    font-size: 12px;
     border-radius: 1em;
     display: inline-block;
     padding: 15px 25px;
@@ -385,9 +433,9 @@ main{
 
 
 @media screen and (min-width:910px) {
-    body{
+    /* body{
         
-    }
+    } */
     .menu-btn{
         display: none;
     }
