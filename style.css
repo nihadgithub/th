@@ -37,8 +37,9 @@ p{
 
     --light-green:#adedc2;
     --light-blue:#c4f4f9;
-    --text-dark:#1f2b37;
+    /* --text-dark:#1f2b37; */
 
+    --text-second:#555;
     --text-dark:#000;
     --text-dark-transparancy:rgba(0,0,0,0.4);
 }
@@ -392,6 +393,7 @@ nav > ul > li > a:hover{
 .lead-info-card > p{
     padding: 5px 2.5px;
     color: var(--text-dark);
+    color: var(--text-second);
     font-size: 16px;
 }
 .lead-photo{
