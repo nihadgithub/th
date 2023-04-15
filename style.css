@@ -220,14 +220,14 @@ nav > ul > li > a:hover{
 
 
 .page__title_main{
-    font-size: 38px;
+    font-size: 36px;
     font-weight: 600;
     margin: 30px 0 15px 0;
     color: var(--text-dark);
     user-select: none;
 }
 .page__title__sub{
-    font-size: 24px;
+    font-size: 22px;
     line-height: 32px;
     font-weight: 400;
     margin: 5px 0 5px 0;
@@ -271,8 +271,10 @@ nav > ul > li > a:hover{
     align-items: center;
     justify-content: center;
 }
-.socials__landing__page a>div>p{
-    margin: 0 15px 0 5px;
+.socials__landing__page a>div p{
+    /* margin: 0 5px 0 5px; */
+    padding-left: 10px;
+
     font-weight: 600;
 }
 /* .socials__landing__page a img{
@@ -469,9 +471,11 @@ nav > ul > li > a:hover{
         background-color: var(--transparent);
     }
     nav ul{
-        display: flex;
+       display: flex;
        align-items: center;
        justify-content: end;
+       flex-wrap: wrap-reverse;
+       
     }
     nav ul li a{
         display: inline;
@@ -480,7 +484,7 @@ nav > ul > li > a:hover{
         font-size: 18px;
 
         font-weight: 400;
-        
+         
     }
     .page__title_oulined_head{
         margin-bottom: 15px;
