@@ -369,7 +369,7 @@ nav > ul > li > a:hover{
 }
 .lead-info-card{
     padding: 30px 40px;
-    margin: 20px 10px;
+    margin: 25px 10px;
     /* background-color: var(--light-blue); */
     display: grid;
     place-items: center;
