@@ -115,8 +115,7 @@ nav ul li a{
     
 }
 nav > ul > li > a:hover{
-    background-color: var(--light-blue);
-    
+    background-color: rgba(0, 0, 0, 0.15);
 }
 .menu-btn{ 
     position: absolute;
@@ -264,6 +263,17 @@ nav > ul > li > a:hover{
 	border: 2.5px solid rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
 
+    
+
+}
+.socials__landing__page a>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials__landing__page a>div>p{
+    margin: 0 15px 0 5px;
+    font-weight: 600;
 }
 /* .socials__landing__page a img{
 	 height: 35px; 
@@ -359,7 +369,7 @@ nav > ul > li > a:hover{
     
 }
 .lead-info-card{
-    padding: 20px 35px;
+    padding: 25px 40px;
     margin: 20px 10px;
     /* background-color: var(--light-blue); */
     display: grid;
