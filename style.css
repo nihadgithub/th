@@ -183,11 +183,9 @@ nav > ul > li > a:hover{
     user-select: none;
 }
 .page__section_1{
-    
     margin-top: 0px;
-   /*  min-height: calc(100vh - 70px); */
     height: 100vh;
-    height: 100dvh;
+    /* height: 100dvh; */
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -199,7 +197,9 @@ nav > ul > li > a:hover{
 .page__section_2,.page__section_3,.page__section_4{
     padding-top: 25px;
 }
-
+.page__section_4{
+    padding-bottom: 25px;
+}
 
 .page__title_oulined_head{
     font-size: 44px;
@@ -382,7 +382,7 @@ nav > ul > li > a:hover{
     
 }
 .lead-info-card:hover{
-    transform: scaleY(1.02);
+    transform: scaleY(1.03);
 }
 .lead-info-card > h3{
     color: var(--text-dark);
