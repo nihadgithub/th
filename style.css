@@ -341,7 +341,7 @@ nav > ul > li > a:hover{
     place-items: center;
     text-align: center;
 
-    background-color: var(--light-green);
+    /* background-color: var(--light-green); */
 
     background-image:radial-gradient(at 20% 9%, rgb(254, 242, 235) 0px, transparent 50%),
 	radial-gradient(at 3% 44%, rgb(244, 226, 255) 0px, transparent 50%),
