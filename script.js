@@ -2,11 +2,6 @@
 /* Animate On Scroll */
 AOS.init();
 
-/*  */
-/* let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh',`${vh}px`);
- */
-
 menu = document.querySelector(".menu-btn");
 nav = document.querySelector("nav");
 header = document.querySelector("header");
@@ -51,13 +46,10 @@ if (menuLinks.length > 0){
 				document.querySelector('header').offsetHeight;
 
 			if (menu_btn_bar_1.classList.contains('menu-btn-bar-1_active')) {
-				// document.body.classList.remove('_lock');
                 nav.classList.toggle("nav-active");
                 menu_btn_bar_1.classList.toggle("menu-btn-bar-1_active");
                 menu_btn_bar_2.classList.toggle("menu-btn-bar-2_active");
                 header.classList.toggle("header-bg-change");
-				/* iconMenu.classList.remove('_active');
-				menuBody.classList.remove('_active'); */
             }
 
             window.scrollTo({
